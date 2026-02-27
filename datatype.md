@@ -21,3 +21,10 @@
 - Functions,Modules,classes
 
 -Advanced: Decorators, Generators, Iterators, MetaProgramming
+
+# the variable never get the data type 
+# instead value get the data type
+
+- there is no datatype in python but the value in the memory do have the data type
+
+- garbage collection do not do garbage collection immediately but it happens after some time
