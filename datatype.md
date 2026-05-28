@@ -28,3 +28,5 @@
 - there is no datatype in python but the value in the memory do have the data type
 
 - garbage collection do not do garbage collection immediately but it happens after some time
+
+- to know what methods a oject has use dir(object name)
