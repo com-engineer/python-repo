@@ -1,7 +1,10 @@
-# Numbers are the group of Object that has wide variety like sets are also included in the number
+# Numbers are the group of Object that has wide variety like sets are also included in the number and also boolean
+
 # Basic Arithematic Operayions +,-*,/,//,% etc
+
 # we use paranthesis to avoid the confusion in case of multiple arithmetic operations in single expression
-# operator overloading is common in every language where it automatically checks the data types of operands
+
+# operator overloading is common in every language where it automatically checks the data types of operands and perform the operation accordingly
 
 
 # precision
@@ -34,8 +37,8 @@ print('chai')
 
 import math
 
-math.floor(3.5) #we get lower closest value...3
-math.trunc(2.0) #take me towards 0....2
+math.floor(3.5) #we get lower closest value-->3
+math.trunc(2.0) #take me towards 0-->2
 
 #python can also handle the imaginary numbers as well
 2+1j
@@ -46,7 +49,7 @@ math.trunc(2.0) #take me towards 0....2
 
 # to convert the integer into the different form
 # oct(64),hex(64),bin(64)..same like int(3.4)=3
-# int('64',8)--convert to octal
+# int('64',8)--convert to decimal from octal
 
 # bit wise operator
 # right shift >> left shift << 
@@ -82,15 +85,16 @@ math.trunc(2.0) #take me towards 0....2
 # Fraction(7, 2)
 
 # SET is also the part of the numbers
-# >>> setone & {1,2} 
+# >>> setone & {1,2} -->intersection
 # {1, 2}
-# >>> setone | {1,2} 
+# >>> setone | {1,2} -->union
 # {1, 2, 3}
 # # >>> setone-{1,2,3}
-# >>> setone-{1,2,3} 
-# set()
+# >>> setone-{1,2,3} -->difference
+# set()-->empty set it do not give {} which was expected bcz {} is used for dict and set() is used for empty set
 # >>> type({}) 
 # <class 'dict'>
 
+# true=1 and false=0
 # >>> True+5
 # 6
