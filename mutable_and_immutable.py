@@ -23,4 +23,23 @@
 # 10--->expected was 15 but we got 10 
 
 # python internally store the reference of the value not the variable name
+
+# Cannot change after creation
+
+#Simple Rule
+# Immutable
+# int
+# float
+# string
+# tuple
+
+# → changes create NEW object
+
+# Mutable
+# list
+# dict
+# set
+
+# → same object can be modified internally
+
 # so vale remain as it is in the memory only the refernce of the value is changes  means now the username is pointing to "deepu" and y to "10" -->thisis the meaning of mutabl and immutable...where the value is not changed...and since there is no variable refering to the old value the garbage collector go and remove the value from memory
