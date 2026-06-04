@@ -2,7 +2,7 @@
 - for,comprehension ```([x for x in range(10)])```
 
 ## Iterable Objects
-- list,file
+- list,file ``` file itself has its own iter tool```
 
 ## Response
 - __next__
