@@ -92,7 +92,7 @@ my_Tesla = ElectricCar("Tesla","Model S","85KWH")
 #Q.7 static method-no need to create the object to access it
 # print(my_car.general_description())# gives output=Cars are means of Transport
 # Lets us try to access via class name
-print(Car.general_description())# gives error
+# print(Car.general_description())# gives error
 # if i remove self then the method can be accessible through class
 
 # to make any method static we use @staticmethod keyword without "self" keyword but there is question when i tried to acces without mentioning the static keyword it was working fine so what is the difference lets see
@@ -101,13 +101,34 @@ print(Car.general_description())# gives error
 # but when we use @saticmethod keyword object and class both can use it without using self 
 
 #Q.8 use property decorator
+# @property lets you access a method like an attribute (obj.name) instead of calling it like a function (obj.get_name()).
+
 # model is still accessible so it can be overridden
 # so we need to make it read only...so one can think of making it also a private but we have seen that we can still override using "setter method"
 
-my_car.model="city"
-# when i make mdel private and use @property i can override it and hence i cannot access the instance variable model
-print(my_car.model)
-print(my_car.model())
+# my_car.model="city"
+# print(my_car.model)# even though declare a variable private by __var we have to call by obj.var not by obj.__var 
+# print(my_car.model())# this gives error after declaring "property decorator"
 
 
+# Q.9 
+# print(isinstance(my_Tesla,Car))
+# print(isinstance(my_Tesla,ElectricCar))
+# true
 
+
+# Q.10 Multiple inheritance  is possible
+class Batteru:
+    def battery_info(self):
+        return "This is battery"
+
+class Engine:
+    def engine_info(self):
+        return "This is Engine"
+
+class ElectricCar2(Batteru,Engine,Car):
+    pass
+
+my_new_tesla=ElectricCar2("Tesla","Model S")
+print(my_new_tesla.engine_info())
+print(my_new_tesla.battery_info())
