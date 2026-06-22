@@ -28,6 +28,7 @@
 
 # print(str1.lower())
 # print(str1.upper())
+# str1.islower() str1.isupper()--> Tocheck the case of the character
 # #Remove spaces from start and end
 # str2="   My Code   "
 # print(str2.strip())
