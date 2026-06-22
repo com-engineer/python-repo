@@ -40,6 +40,10 @@
 # #convert above string into list--split
 # print(str3.split())#-->['Hey', 'Good', 'Morning,', 'How', 'are', 'you']
 # print(str3.split(", "))#-->['Hey Good Morning', 'How are you']
+# >>> str = 'abracadabra'
+# >>> result = list(str)
+# >>> result
+# ['a', 'b', 'r', 'a', 'c', 'a', 'd', 'a', 'b', 'r', 'a']
 
 # print(str3.find("Good"))# if i don't get any value it will return -1 as result this is not the -ve index
 
