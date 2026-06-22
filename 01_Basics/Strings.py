@@ -83,3 +83,12 @@ print("c:\\user\\pwd")#it skips the single slash  c:\user\pwd this is unicode es
 
 text1="ToDay is Monday"
 print("is" in text1)#-->True
+
+# different input validator
+# isalnum()
+# isalpha()
+# isdigit()
+# islower()
+# isupper()
+
+# "any()" keyword any([F,T,F,F])=>T
